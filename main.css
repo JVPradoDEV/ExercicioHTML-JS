@@ -33,8 +33,13 @@ input, button {
     display: block;
 }
 
+input {
+    background-color: rgb(26, 25, 25);
+    padding: 6px;
+}
+
 button {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     height: 42px;
     font-size: 20px;
     font-weight: bolder;

@@ -9,7 +9,7 @@ form.addEventListener("submit", function(e) {
     let mensagemFracasso = document.querySelector(".invalid-message");
 
     if (numeroB.value > numeroA.value){
-        console.log("ta valido parceiro");
+        console.log("ta valido");
         mensagemFracasso.style.display = "none";
         mensagemSucesso.style.display = "block";
 
@@ -19,7 +19,7 @@ form.addEventListener("submit", function(e) {
     } else {
         mensagemSucesso.style.display = "none";
         mensagemFracasso.style.display = "block";
-        console.log("ta nada");
+        console.log("ta invalido");
 
         numeroA.value = "";
         numeroB.value = "";
